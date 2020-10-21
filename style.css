@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
+*{
+  box-sizing: border-box;
+
+}
+body{
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+.container{
+  width: 95%;
+  max-width: 90em;
+  margin: 0 auto;
+}
+.clearfix ,
+.section{
+  content: '';
+  display: block;
+  clear: both;
+}
+/* typography*/
+h1{
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+.title{
+font-size: 2.5rem;
+margin-bottom: 1.5em;
+font-weight: 900;
+margin-top: 1em;
+}
+.title span{
+  font-weight: 300;
+  display: block;
+  font-size: .85em;
+}
+@media(min-width:60rem ){
+  .title{
+    font-size: 3.7rem;
+  }
+}
+.button{
+  display: inline-block;
+  font-size: 1.15rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-style: solid;
+  padding: .5em 1.75em;
+}
+.button-accent{
+  color: #00ff6c;
+  border-color: #00ff6c;
+}
+.button-accent:hover,
+.button-accent:focus{
+  background: #00ff6c;
+  color: #232323;
+}
+.button-dark{
+  color: #232323;
+  border-color: #232323;
+}
+.button-dark:hover,
+.button-dark:focus{
+  background:#232323;
+  color: #00ff6c;
+}
+
+/*header*/
+header{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 1em;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin: 1em;
+}
+nav a {
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .8rem;
+  padding: .5em;
+  color: #fff;
+}
+nav a:hover,
+nav a:focus{
+  color: #DDD;
+}
+@media(min-width:60rem ){
+  .logo{
+    float: left;
+  }
+  nav{
+    float: right;
+  }
+  }
+
+ /* home-hero*/
+ .home-hero{
+   background-image: url(office2.jpg);
+   padding: 10em 0;
+   color: #FFF;
+   background-size: cover;
+   background-position: center;
+
+ }
+ .home-about-textbox{
+background-color: #232323;
+padding: 4em;
+width: 110%;
+margin-left: -5vw;
+outline: 2px solid #00ff6c;
+outline-offset: -3em;
+color: #FFF;
+position: relative;
+ }
+ .home-about-textbox h1{
+   color: #00ff6c;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   top:.3em;
+   background: #232323;
+   padding: 0 0.145em;
+ }
+ @media (min-width: 25rem){
+   h1{
+     font-size: 2rem;
+   }
+   p{
+     line-height: 1.5;
+   }
+   .home-about-textbox h1{
+     top: .6em;
+     padding: 0 .325em;
+   }
+ }
+ @media (min-width: 60rem){
+   h1{
+     font-size: 2.5rem;
+   }
+
+
+   .home-about{
+    background-image:url(office-3.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding-bottom: 10em;
+
+   }
+   p{
+     line-height: 1.6;
+     font-size: 1.2rem;
+   }
+   .home-about-textbox{
+  width: 50%;
+  padding-left: 7em;
+  outline-offset: -3.75em;
+  margin-left: -2.5%;
+  text-align: left;
+  top: -5em;
+  box-shadow: 0 0 4em 0 rgba(0,0,0,.5);
+   }
+   .home-about-textbox h1{
+     top: .75em;
+     left: 3em;
+     transform: translateX(0);
+
+   }
+ }
+
+ /*@media (min-width: 60rem){
+   .home-hero{
+     height:100vh;
+     padding-top:50vh;
+   }
+ }*/
+ .portfolio{
+   margin: 3em 0;
+   background-image: url(bg-img.jpg);
+ }
+ /*.portfolio .textbox{
+   width: 50%;
+   padding-left: 7em;
+   outline-offset: -3.75em;
+   margin-left: -2.5%;
+   text-align: left;
+   top: -5em;
+   box-shadow: 0 0 4em 0 rgba(0,0,0,.5);
+ }
+ .portfolio .textbox p{
+   line-height: 1.6;
+   font-size: 1.2rem;
+ }
+ .portfolio .textbox h1{
+   top: .75em;
+   left: 3em;
+   transform: translateX(0);
+ }*/
+ 
+.features{
+  width: 25%;
+ margin: 100px auto 100px auto;
+ text-align: left;
+ line-height: 2;
+ color: #fff;
+
+}
+.resume-img{
+  width: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.portfolio {
+  text-align: left;
+}
+
+/* footer*/
+.cta {
+  background-color: #00ff6c;
+  padding: 3em 0;
+}
