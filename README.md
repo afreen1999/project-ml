@@ -16,3 +16,6 @@ login.css = style for both login.html and login1.html
 
 option.html = to choose if employee or company and direct to respective login page
 option.css = style of option.html
+
+survey.html = form to fill in info of newly created employee account
+survey.css = styling of survey.html
